@@ -25,13 +25,19 @@ body {
 
 
    .header-logo {
-    width: 280px;           /* Це зробить логотип великим */
-    height: 280px;          /* Висота має дорівнювати ширині для ідеального кола */
-    border-radius: 50%;     /* Це КЛЮЧОВИЙ рядок: він обріже білу латку по колу */
-    object-fit: cover;      /* Щоб літера не деформувалася */
-    display: block;         /* Дозволяє центрувати елемент */
-    margin: 40px auto;      /* Центрує і додає гарні відступи зверху та знизу */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Додасть м'яку тінь, щоб виглядало професійно */
+  width: 200px;                /* Розмір кола */
+    height: 200px;               /* Має бути однаковим */
+    background-color: #ff9900;   /* Твій помаранчевий колір */
+    color: black;                /* Колір літери Ї */
+    border-radius: 50%;          /* Робить ідеальне коло */
+    display: flex;
+    align-items: center;         /* Центрує букву по вертикалі */
+    justify-content: center;     /* Центрує букву по горизонталі */
+    font-size: 120px;            /* Розмір самої літери */
+    font-weight: bold;           /* Жирна буква */
+    font-family: Arial, sans-serif; 
+    margin: 20px auto;           /* Центрує все лого на сторінці */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Легка тінь */
 }
 
 
@@ -102,6 +108,7 @@ footer {
     font-weight: 600;
 
 }
+
 
 
 
