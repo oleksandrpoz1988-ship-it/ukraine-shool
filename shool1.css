@@ -24,11 +24,16 @@ body {
 }
 
 .header-logo {
-   border-radius: 50%; /* Робить картинку ідеально круглою */
-    background-color: transparent; /* Прибирає будь-який зайвий фон */
-    object-fit: cover; /* Щоб буква не розтягувалася */
-    width: 120px; /* Можеш підібрати комфортний розмір */
-    height: 120px;
+   .header-logo {
+    width: 250px;           /* Збільшив розмір (було 120-150) */
+    height: 250px;          /* Має бути таким же, як ширина */
+    border-radius: 50%;     /* Робить ідеальне коло, відрізаючи кути-латки */
+    object-fit: cover;      /* Центрує букву всередині кола */
+    display: block;
+    margin: 20px auto;      /* Центрує по горизонталі та дає відступ */
+    border: none;           /* Прибирає будь-які рамки */
+    background-color: transparent; /* Робить фон прозорим */
+}
 }
 
 .main-title {
@@ -98,3 +103,4 @@ footer {
     font-weight: 600;
 
 }
+
