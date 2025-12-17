@@ -24,8 +24,11 @@ body {
 }
 
 .header-logo {
-    max-width: 180px;
-    height: auto;
+   border-radius: 50%; /* Робить картинку ідеально круглою */
+    background-color: transparent; /* Прибирає будь-який зайвий фон */
+    object-fit: cover; /* Щоб буква не розтягувалася */
+    width: 120px; /* Можеш підібрати комфортний розмір */
+    height: 120px;
 }
 
 .main-title {
@@ -93,4 +96,5 @@ footer {
     align-items: center;
     gap: 10px;
     font-weight: 600;
+
 }
